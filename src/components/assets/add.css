@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+  }
+.menu textarea ,.menu input{
+    margin: 5px auto;
+    width: 500px;
+    padding: 5px;
+    overflow-x:  hidden;
+    overflow-y: auto;
+    min-height: 40px;
+    max-height: 200px;
+    resize: vertical;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #fafaff;
+    color: black;
+}
+.menu textarea:focus,.menu input:focus{
+    border-color: blue;
+}
+  
+.menu button{
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fafaff;
+    color: black;
+    max-height: 70px;
+    margin: 0 auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+  }
